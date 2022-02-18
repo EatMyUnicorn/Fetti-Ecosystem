@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 5vmin;
+  pointer-events: none;
+  display:inline-flex;
+}
+
+.App-logo {
+  height: 5vmin;
+  pointer-events: none;
+  margin-right: 15px;
+  display: flex;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.MuiAppBar-colorPrimary {
+  color: #fff;
+  background-color: #1e2130 !important;
+}
+.App-link {
+  color: #61dafb;
+}
+.makeStyles-logo-3{
+  display: inline-flex;
+  align-items: center;
+}
+.makeStyles-link-4 {
+  margin-left: 10vh !important;
+}
