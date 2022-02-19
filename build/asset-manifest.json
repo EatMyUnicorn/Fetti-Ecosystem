@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/var/www/fetti.life/static/css/main.e215752b.chunk.css",
+    "main.js": "/var/www/fetti.life/static/js/main.8793161c.chunk.js",
+    "main.js.map": "/var/www/fetti.life/static/js/main.8793161c.chunk.js.map",
+    "runtime-main.js": "/var/www/fetti.life/static/js/runtime-main.5c6f2f8b.js",
+    "runtime-main.js.map": "/var/www/fetti.life/static/js/runtime-main.5c6f2f8b.js.map",
+    "static/css/2.0acf608e.chunk.css": "/var/www/fetti.life/static/css/2.0acf608e.chunk.css",
+    "static/js/2.2d216b13.chunk.js": "/var/www/fetti.life/static/js/2.2d216b13.chunk.js",
+    "static/js/2.2d216b13.chunk.js.map": "/var/www/fetti.life/static/js/2.2d216b13.chunk.js.map",
+    "static/js/3.2aa10952.chunk.js": "/var/www/fetti.life/static/js/3.2aa10952.chunk.js",
+    "static/js/3.2aa10952.chunk.js.map": "/var/www/fetti.life/static/js/3.2aa10952.chunk.js.map",
+    "index.html": "/var/www/fetti.life/index.html",
+    "static/css/2.0acf608e.chunk.css.map": "/var/www/fetti.life/static/css/2.0acf608e.chunk.css.map",
+    "static/css/main.e215752b.chunk.css.map": "/var/www/fetti.life/static/css/main.e215752b.chunk.css.map",
+    "static/js/2.2d216b13.chunk.js.LICENSE.txt": "/var/www/fetti.life/static/js/2.2d216b13.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c6f2f8b.js",
+    "static/css/2.0acf608e.chunk.css",
+    "static/js/2.2d216b13.chunk.js",
+    "static/css/main.e215752b.chunk.css",
+    "static/js/main.8793161c.chunk.js"
+  ]
+}
