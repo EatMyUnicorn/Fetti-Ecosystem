@@ -2,7 +2,6 @@
   "name": "fetti-life",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/var/www/fetti.life",
   "dependencies": {
     "@project-serum/anchor": "^0.17.1-beta.1",
     "@solana/spl-token": "^0.1.8",
