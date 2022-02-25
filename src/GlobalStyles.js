@@ -25,10 +25,11 @@ const styles = theme => ({
     },
     ".nav-logo-container": {
       display:"inline-flex",
+      alignItems: "center",
     },
     ".nav-logo": {
-      height: "auto",
-      width: "4vh",
+      height: "50px",
+      width: "auto",
       marginRight: "15px",
     },
     ".container": {
@@ -127,7 +128,7 @@ const styles = theme => ({
     },
     ".MuiPaper-rounded":{
       borderRadius:"25px !important"
-    }
+    },
   }
 });
 
