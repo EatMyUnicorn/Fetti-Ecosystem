@@ -145,7 +145,7 @@ function HeadSection(props) {
                             <p/>
                           </Typography>
                           <Link
-                            key={element.name}
+                            key="WhitePaper"
                             to="/Whitepaper"
                             className={classes.noDecoration}
                           >
