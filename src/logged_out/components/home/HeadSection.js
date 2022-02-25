@@ -150,7 +150,7 @@ function HeadSection(props) {
                               fullWidth
                               className={classes.extraLargeButton}
                               classes={{ label: classes.extraLargeButtonLabel }}
-                              href="/whitepaper"
+                              href="/Whitepaper"
                             >
                               Check out the Whitepaper
                             </Button>
