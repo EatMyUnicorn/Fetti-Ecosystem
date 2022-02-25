@@ -144,16 +144,21 @@ function HeadSection(props) {
                             deed takes in the form of a smart contract. Every Good Deed Deserves Fetti.
                             <p/>
                           </Typography>
+                          <Link
+                            key={element.name}
+                            to="/Whitepaper"
+                            className={classes.noDecoration}
+                          >
                             <Button
                               variant="contained"
                               color="secondary"
                               fullWidth
                               className={classes.extraLargeButton}
                               classes={{ label: classes.extraLargeButtonLabel }}
-                              href="/Whitepaper"
                             >
                               Check out the Whitepaper
                             </Button>
+                          </Link>
                         </Box>
                       </div>
                     </Box>
