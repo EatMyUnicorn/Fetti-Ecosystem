@@ -68,13 +68,9 @@ function NavBar(props) {
       <AppBar position="fixed" className={classes.appBar}>
         <Toolbar className={classes.toolbar}>
           <div className="nav-logo-container">
-            <Link
-              key={element.name}
-              to={element.link}
-              className={classes.noDecoration}
-            >
+            <a href="/" alt="home">
               <img src={logo} alt="" className="nav-logo" />
-            </Link>
+            </a>
             <Typography
               variant="h4"
               className={classes.brandText}
