@@ -137,7 +137,7 @@ function HeadSection(props) {
                           >
                             Is designed to remove the stressful nature of tasks 
                             beyond your capabilities with the help of a community. Utilizing the Solana 
-                            Blockchain technologies the Fetti Ecosystem is able to digitaly reward good 
+                            Blockchain technologies the Fetti Ecosystem is able to digitally reward good 
                             Samaritans for their hard work and dedication to seeing the Fetti community 
                             grow and succeed. Rewards are paid out in the form of Solana Tokens we call,
                             Fetti (FETTI). With the Solana Blockchain at Fetti's core, we are able to 
