@@ -148,7 +148,7 @@ function HeadSection(props) {
                           <Link
                             key="WhitePaper"
                             to="/Whitepaper"
-                            className={classes.noDecoration}
+                            className="TeamLink"
                           >
                             <Button
                               variant="contained"
