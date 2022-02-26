@@ -99,6 +99,48 @@ function PricingSection(props) {
               TwitterLink="https://twitter.com/Eatmyunicorn318"
             />
           </Grid>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            lg={6}
+            className={classes.cardWrapper}
+            data-aos="zoom-in-up"
+          >
+            <PriceCard
+              title="Shelden Lewis"
+              jobTitle={
+                <span>
+                  <Typography display="inline">Graphic Artist</Typography>
+                </span>
+              }
+              features={["Hobbies: Involuntary Yoga, Spending too much time in front of a dimly lit screen","Draws things"]}
+              ImgLink="https://static-exp1.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry"
+              TwitterLink="/"
+            />
+          </Grid>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            lg={6}
+            className={classes.cardWrapper}
+            data-aos="zoom-in-up"
+            
+          >
+            <PriceCard
+              
+              title="We're Hiring! | This Could be you!"
+              jobTitle={
+                <span>
+                  <Typography display="inline">Your Title!</Typography>
+                </span>
+              }
+              features={["Looking for a good fit in the world of Web3?"]}
+              ImgLink="https://static-exp1.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry"
+              TwitterLink="/"
+            />
+          </Grid>
         </Grid>
       </div>
     </div>

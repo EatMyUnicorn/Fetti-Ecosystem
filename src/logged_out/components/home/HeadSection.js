@@ -122,11 +122,14 @@ function HeadSection(props) {
                       justifyContent="space-between"
                       height="100%"
                     >
-                      <Box mb={4}>
+                      <Box 
+                        mb={4}
+                        textAlign="center"  
+                      >
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          The Fetti Ecosystem
+                          What is Fetti?
                         </Typography>
                       </Box>
                       <div>
@@ -135,7 +138,7 @@ function HeadSection(props) {
                             variant={isWidthUp("lg", width) ? "h6" : "body1"}
                             color="textSecondary"
                           >
-                            Is designed to remove the stressful nature of tasks 
+                            The Fetti Ecosystem Is designed to remove the stressful nature of tasks 
                             beyond your capabilities with the help of a community. Utilizing the Solana 
                             Blockchain technologies the Fetti Ecosystem is able to digitally reward good 
                             Samaritans for their hard work and dedication to seeing the Fetti community 

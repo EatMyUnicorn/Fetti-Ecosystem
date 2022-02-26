@@ -75,27 +75,27 @@ const styles = theme => ({
       }
     },
     ".lg-mg-bottom": {
-      marginBottom: `${theme.spacing(20)}px !important`,
+      marginBottom: `${theme.spacing(10)}px !important`,
       [theme.breakpoints.down("md")]: {
-        marginBottom: `${theme.spacing(18)}px !important`
+        marginBottom: `${theme.spacing(5)}px !important`
       },
       [theme.breakpoints.down("sm")]: {
-        marginBottom: `${theme.spacing(16)}px !important`
+        marginBottom: `${theme.spacing(5)}px !important`
       },
       [theme.breakpoints.down("xs")]: {
-        marginBottom: `${theme.spacing(14)}px !important`
+        marginBottom: `${theme.spacing(5)}px !important`
       }
     },
     ".lg-p-top": {
-      paddingTop: `${theme.spacing(20)}px !important`,
+      paddingTop: `${theme.spacing(10)}px !important`,
       [theme.breakpoints.down("md")]: {
-        marginBottom: `${theme.spacing(18)}px !important`
+        marginBottom: `${theme.spacing(5)}px !important`
       },
       [theme.breakpoints.down("sm")]: {
-        marginBottom: `${theme.spacing(16)}px !important`
+        marginBottom: `${theme.spacing(5)}px !important`
       },
       [theme.breakpoints.down("xs")]: {
-        marginBottom: `${theme.spacing(14)}px !important`
+        marginBottom: `${theme.spacing(5)}px !important`
       }
     },
     "#HeadSection": {
@@ -129,6 +129,11 @@ const styles = theme => ({
     ".MuiPaper-rounded":{
       borderRadius:"25px !important"
     },
+    ".MuiTypography-h3":{
+      fontSize:"4em",
+      fontWeight:"normal",
+      fontFamily: "'Baloo Bhaijaan', cursive",
+    }
   }
 });
 
