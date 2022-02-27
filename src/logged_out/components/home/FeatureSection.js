@@ -4,10 +4,10 @@ import { Grid, Typography, isWidthUp, withWidth } from "@material-ui/core";
 import CodeIcon from "@material-ui/icons/Code";
 import calculateSpacing from "./calculateSpacing";
 import FeatureCard from "./FeatureCard";
-import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
-import SwapVerticalCircleIcon from '@mui/icons-material/SwapVerticalCircle';
-import StoreIcon from '@mui/icons-material/Store';
-import ApiIcon from '@mui/icons-material/Api';
+import AdminPanelSettingsIcon from '@material-ui/icons/AdminPanelSettings';
+import SwapVerticalCircleIcon from '@material-ui/icons/SwapVerticalCircle';
+import StoreIcon from '@material-ui/icons/Store';
+import ApiIcon from '@material-ui/icons/Api';
 
 const iconSize = 160;
 
