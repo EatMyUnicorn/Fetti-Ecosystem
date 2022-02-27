@@ -133,7 +133,19 @@ const styles = theme => ({
       fontSize:"4em",
       fontWeight:"normal",
       fontFamily: "'Baloo Bhaijaan', cursive",
+    },
+    "#HeadSection h4.MuiTypography-root.MuiTypography-h4": {
+      fontFamily: "'Baloo Bhaijaan', cursive",
+      fontWeight: "400",
+      color: "#234531",
+    },
+    "#HeadSection h3.MuiTypography-root.MuiTypography-h3": {
+      fontFamily: "'Baloo Bhaijaan', cursive",
+      fontWeight: "400",
+      color: "#234531",
     }
+
+
   }
 });
 
