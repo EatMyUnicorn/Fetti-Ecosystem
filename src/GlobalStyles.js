@@ -134,17 +134,21 @@ const styles = theme => ({
       fontWeight:"normal",
       fontFamily: "'Baloo Bhaijaan', cursive",
     },
-    "#HeadSection h4.MuiTypography-root.MuiTypography-h4": {
+    "#HeadSection h4.MuiTypography-root.MuiTypography-h4, #HeadSection h3.MuiTypography-root.MuiTypography-h3": {
       fontFamily: "'Baloo Bhaijaan', cursive",
       fontWeight: "400",
       color: "#234531",
     },
-    "#HeadSection h3.MuiTypography-root.MuiTypography-h3": {
+    "#Ecosystem h4.MuiTypography-root.MuiTypography-h4, #Ecosystem h3.MuiTypography-root.MuiTypography-h3": {
+      fontFamily: "'Baloo Bhaijaan', cursive",
+      fontWeight: "400",
+      color: "#234531",
+    },
+    "#TeamSection h4.MuiTypography-root.MuiTypography-h4, #TeamSection h3.MuiTypography-root.MuiTypography-h3": {
       fontFamily: "'Baloo Bhaijaan', cursive",
       fontWeight: "400",
       color: "#234531",
     }
-
 
   }
 });

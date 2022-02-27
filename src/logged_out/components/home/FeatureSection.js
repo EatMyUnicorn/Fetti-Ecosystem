@@ -2,16 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Grid, Typography, isWidthUp, withWidth } from "@material-ui/core";
 import CodeIcon from "@material-ui/icons/Code";
-import BuildIcon from "@material-ui/icons/Build";
-import ComputerIcon from "@material-ui/icons/Computer";
-import BarChartIcon from "@material-ui/icons/BarChart";
-import HeadsetMicIcon from "@material-ui/icons/HeadsetMic";
-import CalendarTodayIcon from "@material-ui/icons/CalendarToday";
-import CloudIcon from "@material-ui/icons/Cloud";
-import MeassageIcon from "@material-ui/icons/Message";
-import CancelIcon from "@material-ui/icons/Cancel";
 import calculateSpacing from "./calculateSpacing";
 import FeatureCard from "./FeatureCard";
+import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
+import SwapVerticalCircleIcon from '@mui/icons-material/SwapVerticalCircle';
+import StoreIcon from '@mui/icons-material/Store';
+import ApiIcon from '@mui/icons-material/Api';
 
 const iconSize = 160;
 
@@ -21,7 +17,7 @@ const features = [
     headline: "Fetti DAO",
     text:
       "The Fetti DAO is the organizations entire governance sector where all the big decisions get made",
-    icon: <BuildIcon style={{ fontSize: iconSize }} />,
+    icon: <AdminPanelSettingsIcon style={{ fontSize: iconSize }} />,
     mdDelay: "0",
     smDelay: "0", 
     Link: "https://dao-beta.mango.markets/dao/DgeDDRXFDTKvuZorMG4BRHRsycy7vCSAk9mHEqkNurWx"
@@ -31,7 +27,7 @@ const features = [
     headline: "Fetti Swap",
     text:
       "Fetti Swap is where Fetti tokens can be exchanged for other cryptocurrencies",
-    icon: <BarChartIcon style={{ fontSize: iconSize }} />,
+    icon: <SwapVerticalCircleIcon style={{ fontSize: iconSize }} />,
     mdDelay: "200",
     smDelay: "200", 
     Link: ""
@@ -42,7 +38,7 @@ const features = [
     headline: "Fetti Life Marketplace",
     text:
       "The Fetti Life Marketplace is where all the opportunities to provide good deeds and services Will be located.",
-    icon: <MeassageIcon style={{ fontSize: iconSize }} />,
+    icon: <StoreIcon style={{ fontSize: iconSize }} />,
     mdDelay: "400",
     smDelay: "0", 
     Link: ""
@@ -53,7 +49,7 @@ const features = [
     headline: "Investor Pre-Launch NFT Project",
     text:
       "Fetti is creating a set of NFTs that will represent the ecosystems first round of funding. These NFTs provide access to the DAO by granting governance privilages",
-    icon: <CodeIcon style={{ fontSize: iconSize }} />,
+    icon: <ApiIcon style={{ fontSize: iconSize }} />,
     mdDelay: "0",
     smDelay: "200", 
     Link: ""
@@ -109,7 +105,7 @@ const features = [
 function FeatureSection(props) {
   const { width } = props;
   return (
-    <div style={{ backgroundColor: "#FFFFFF" }}>
+    <div id="Ecosystem" style={{ backgroundColor: "#FFFFFF" }}>
       <div className="container-fluid lg-p-top">
         <Typography variant="h3" align="center" className="lg-mg-bottom">
           Fetti Ecosystem

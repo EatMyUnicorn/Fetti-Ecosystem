@@ -48,7 +48,7 @@ const styles = theme => ({
 function PricingSection(props) {
   const { width, classes } = props;
   return (
-    <div className="lg-p-top" style={{ backgroundColor: "#FFFFFF" }}>
+    <div id="TeamSection" className="lg-p-top" style={{ backgroundColor: "#FFFFFF" }}>
       <Typography variant="h3" align="center" className="lg-mg-bottom">
         Meet The Team
       </Typography>
