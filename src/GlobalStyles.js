@@ -148,8 +148,15 @@ const styles = theme => ({
       fontFamily: "'Baloo Bhaijaan', cursive",
       fontWeight: "400",
       color: "#234531",
-    }
-
+    },
+    ".jss12": {
+      [theme.breakpoints.down("sm")]: {
+        maxWidth: "500px"
+      },
+      [theme.breakpoints.down("xs")]: {
+        maxWidth: "500px"
+      }    
+    },
   }
 });
 
