@@ -4,10 +4,10 @@ import { Grid, Typography, isWidthUp, withWidth } from "@material-ui/core";
 import CodeIcon from "@material-ui/icons/Code";
 import calculateSpacing from "./calculateSpacing";
 import FeatureCard from "./FeatureCard";
-import AdminPanelSettingsIcon from '@material-ui/icons/AdminPanelSettings';
-import SwapVerticalCircleIcon from '@material-ui/icons/SwapVerticalCircle';
-import StoreIcon from '@material-ui/icons/Store';
-import LocalFireDepartmentIcon from '@material-ui/icons/LocalFireDepartment';
+import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
+import SwapVerticalCircleIcon from '@mui/icons-material/SwapVerticalCircle';
+import StoreIcon from '@mui/icons-material/Store';
+import ApiIcon from '@mui/icons-material/Api';
 
 const iconSize = 160;
 
@@ -49,7 +49,7 @@ const features = [
     headline: "Investor Pre-Launch NFT Project",
     text:
       "Fetti is creating a set of NFTs that will represent the ecosystems first round of funding. These NFTs provide access to the DAO by granting governance privilages",
-    icon: <LocalFireDepartmentIcon style={{ fontSize: iconSize }} />,
+    icon: <ApiIcon style={{ fontSize: iconSize }} />,
     mdDelay: "0",
     smDelay: "200", 
     Link: ""
