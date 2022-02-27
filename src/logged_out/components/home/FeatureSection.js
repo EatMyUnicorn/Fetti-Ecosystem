@@ -7,7 +7,7 @@ import FeatureCard from "./FeatureCard";
 import AdminPanelSettingsIcon from '@material-ui/icons/AdminPanelSettings';
 import SwapVerticalCircleIcon from '@material-ui/icons/SwapVerticalCircle';
 import StoreIcon from '@material-ui/icons/Store';
-import ApiIcon from '@material-ui/icons/Api';
+import LocalFireDepartmentIcon from '@material-ui/icons/LocalFireDepartment';
 
 const iconSize = 160;
 
@@ -49,7 +49,7 @@ const features = [
     headline: "Investor Pre-Launch NFT Project",
     text:
       "Fetti is creating a set of NFTs that will represent the ecosystems first round of funding. These NFTs provide access to the DAO by granting governance privilages",
-    icon: <ApiIcon style={{ fontSize: iconSize }} />,
+    icon: <LocalFireDepartmentIcon style={{ fontSize: iconSize }} />,
     mdDelay: "0",
     smDelay: "200", 
     Link: ""
