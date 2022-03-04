@@ -41,7 +41,7 @@ const features = [
     icon: <StoreIcon style={{ fontSize: iconSize }} />,
     mdDelay: "400",
     smDelay: "0", 
-    Link: ""
+    Link: "http://market.fetti.life"
 
   },
   {

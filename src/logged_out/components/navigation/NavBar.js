@@ -120,6 +120,7 @@ function NavBar(props) {
                         href={element.link}
                         className={classes.noDecoration}
                         onClick={handleMobileDrawerClose}
+                        target="_blank"
                       >
                         <Button
                           color="secondary"
