@@ -34,11 +34,11 @@ function Routing(props) {
         blogPosts={blogPosts}
       />
       <PropsRoute path="/" component={Home} selectHome={selectHome} />
-      <Route path='/DAO' component={() => { 
+      <PropsRoute path='/DAO' component={() => { 
         window.location.href = 'https://dao-beta.mango.markets/dao/DgeDDRXFDTKvuZorMG4BRHRsycy7vCSAk9mHEqkNurWx'; 
         return null;
       }}/>
-      <Route path='/Marketplace' component={() => { 
+      <PropsRoute path='/Marketplace' component={() => { 
         window.location.href = 'http://market.fetti.life'; 
         return null;
       }}/>
