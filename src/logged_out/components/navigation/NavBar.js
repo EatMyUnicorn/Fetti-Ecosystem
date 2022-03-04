@@ -60,12 +60,12 @@ function NavBar(props) {
       icon: <HomeIcon className="text-white" />
     },
     {
-      link: "https://dao-beta.mango.markets/dao/DgeDDRXFDTKvuZorMG4BRHRsycy7vCSAk9mHEqkNurWx",
+      link: "/DAO",
       name: "DAO",
       icon: <AdminPanelSettingsIcon className="text-white" />
     },
     {
-      link: "https://dao-beta.mango.markets/dao/DgeDDRXFDTKvuZorMG4BRHRsycy7vCSAk9mHEqkNurWx",
+      link: "/Marketplace",
       name: "Marketplace",
       icon: <StoreIcon className="text-white" />
     },
@@ -114,44 +114,22 @@ function NavBar(props) {
             <Hidden smDown>
               {menuItems.map(element => {
                 if (element.link) {
-                  if (element.link.includes("http") === true){
-                    return (
-                      <Link
-                        key={element.name}
-                        to={{ pathname: element.link}}
-                        className={classes.noDecoration}
-                        onClick={handleMobileDrawerClose}
+                  return (
+                    <Link
+                      key={element.name}
+                      to={element.link}
+                      className={classes.noDecoration}
+                      onClick={handleMobileDrawerClose}
+                    >
+                      <Button
+                        color="secondary"
+                        size="large"
+                        classes={{ text: classes.menuButtonText }}
                       >
-                        <Button
-                          color="secondary"
-                          size="large"
-                          classes={{ text: classes.menuButtonText }}
-                        >
-                          {element.name}
-                        </Button>
-                      </Link>
-                    );
-  
-                  }
-                  else{
-                    return (
-                      <Link
-                        key={element.name}
-                        to={element.link}
-                        className={classes.noDecoration}
-                        onClick={handleMobileDrawerClose}
-                      >
-                        <Button
-                          color="secondary"
-                          size="large"
-                          classes={{ text: classes.menuButtonText }}
-                        >
-                          {element.name}
-                        </Button>
-                      </Link>
-                    );
-  
-                  }
+                        {element.name}
+                      </Button>
+                    </Link>
+                  );
                 }
                 return (
                   <Button
