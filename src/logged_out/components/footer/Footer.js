@@ -166,7 +166,7 @@ function Footer(props) {
         <Grid container spacing={isWidthUp("md", width) ? 10 : 5}>
           <Grid item xs={12} md={6} lg={4}>
             <form  
-              action="mailto:fetti.labs@gmail.com"
+              action=""
               method="POST"
               enctype="multipart/form-data"
               name="Fetti.life Get in touch"
