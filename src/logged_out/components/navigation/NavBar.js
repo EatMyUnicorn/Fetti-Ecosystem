@@ -114,22 +114,44 @@ function NavBar(props) {
             <Hidden smDown>
               {menuItems.map(element => {
                 if (element.link) {
-                  return (
-                    <Link
-                      key={element.name}
-                      to={element.link}
-                      className={classes.noDecoration}
-                      onClick={handleMobileDrawerClose}
-                    >
-                      <Button
-                        color="secondary"
-                        size="large"
-                        classes={{ text: classes.menuButtonText }}
+                  if (element.link.includes("http") === true){
+                    return (
+                      <Link
+                        key={element.name}
+                        to={{ pathname: element.link}}
+                        className={classes.noDecoration}
+                        onClick={handleMobileDrawerClose}
                       >
-                        {element.name}
-                      </Button>
-                    </Link>
-                  );
+                        <Button
+                          color="secondary"
+                          size="large"
+                          classes={{ text: classes.menuButtonText }}
+                        >
+                          {element.name}
+                        </Button>
+                      </Link>
+                    );
+  
+                  }
+                  else{
+                    return (
+                      <Link
+                        key={element.name}
+                        to={element.link}
+                        className={classes.noDecoration}
+                        onClick={handleMobileDrawerClose}
+                      >
+                        <Button
+                          color="secondary"
+                          size="large"
+                          classes={{ text: classes.menuButtonText }}
+                        >
+                          {element.name}
+                        </Button>
+                      </Link>
+                    );
+  
+                  }
                 }
                 return (
                   <Button
