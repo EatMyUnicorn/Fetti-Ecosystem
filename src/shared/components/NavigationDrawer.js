@@ -76,34 +76,65 @@ function NavigationDrawer(props) {
       <List className={classes.blackList}>
         {menuItems.map(element => {
           if (element.link) {
-            return (
-              <Link
-                key={element.name}
-                to={element.link}
-                className={classes.noDecoration}
-                onClick={onClose}
-              >
-                <ListItem
-                  button
-                  selected={selectedItem === element.name}
-                  /**
-                   * We disable ripple as it will make a weird animation
-                   * with primary and secondary color
-                   */
-                  disableRipple
-                  disableTouchRipple
-                >
-                  <ListItemIcon>{element.icon}</ListItemIcon>
-                  <ListItemText
-                    primary={
-                      <Typography variant="subtitle1" className="text-white">
-                        {element.name}
-                      </Typography>
-                    }
-                  />
-                </ListItem>
-              </Link>
-            );
+            if(element.name === "DAO" || element.name === "Marketplace"){
+                return (
+                  <a
+                      href={element.link}
+                      className={classes.noDecoration}
+                      onClick={onClose}
+                      target="_blank"
+                  >   
+                   <ListItem
+                      button
+                      selected={selectedItem === element.name}
+                      /**
+                       * We disable ripple as it will make a weird animation
+                       * with primary and secondary color
+                       */
+                      disableRipple
+                      disableTouchRipple
+                    >
+                      <ListItemIcon>{element.icon}</ListItemIcon>
+                      <ListItemText
+                        primary={
+                          <Typography variant="subtitle1" className="text-white">
+                            {element.name}
+                          </Typography>
+                        }
+                      />
+                    </ListItem>
+                  </a>
+                );
+            } else {
+                return (
+                  <Link
+                    key={element.name}
+                    to={element.link}
+                    className={classes.noDecoration}
+                    onClick={onClose}
+                  >
+                    <ListItem
+                      button
+                      selected={selectedItem === element.name}
+                      /**
+                       * We disable ripple as it will make a weird animation
+                       * with primary and secondary color
+                       */
+                      disableRipple
+                      disableTouchRipple
+                    >
+                      <ListItemIcon>{element.icon}</ListItemIcon>
+                      <ListItemText
+                        primary={
+                          <Typography variant="subtitle1" className="text-white">
+                            {element.name}
+                          </Typography>
+                        }
+                      />
+                    </ListItem>
+                  </Link>
+                );
+            }
           }
           return (
             <ListItem button key={element.name} onClick={element.onClick}>
