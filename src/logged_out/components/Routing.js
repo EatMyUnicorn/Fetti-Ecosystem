@@ -6,6 +6,7 @@ import Home from "./home/Home";
 import Blog from "./blog/Blog";
 import BlogPost from "./blog/BlogPost";
 import useLocationBlocker from "../../shared/functions/useLocationBlocker";
+import { Route } from "react-router-dom";
 
 function Routing(props) {
   const { blogPosts, selectBlog, selectHome } = props;
@@ -34,11 +35,11 @@ function Routing(props) {
         blogPosts={blogPosts}
       />
       <PropsRoute path="/" component={Home} selectHome={selectHome} />
-      <PropsRoute path='/DAO' component={() => { 
+      <Route path='/DAO' component={() => { 
         window.location.href = 'https://dao-beta.mango.markets/dao/DgeDDRXFDTKvuZorMG4BRHRsycy7vCSAk9mHEqkNurWx'; 
         return null;
       }}/>
-      <PropsRoute path='/Marketplace' component={() => { 
+      <Route path='/Marketplace' component={() => { 
         window.location.href = 'http://market.fetti.life'; 
         return null;
       }}/>
