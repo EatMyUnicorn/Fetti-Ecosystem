@@ -60,12 +60,12 @@ function NavBar(props) {
       icon: <HomeIcon className="text-white" />
     },
     {
-      link: "/DAO",
+      link: "https://dao-beta.mango.markets/dao/DgeDDRXFDTKvuZorMG4BRHRsycy7vCSAk9mHEqkNurWx",
       name: "DAO",
       icon: <AdminPanelSettingsIcon className="text-white" />
     },
     {
-      link: "/Marketplace",
+      link: "http://market.fetti.life",
       name: "Marketplace",
       icon: <StoreIcon className="text-white" />
     },
@@ -114,7 +114,7 @@ function NavBar(props) {
             <Hidden smDown>
               {menuItems.map(element => {
                 if (element.link) {
-                  if(element.link.includes("http")){
+                  if(element.name === "DAO" || element.name === "Marketplace"){
                     return (
                       <a
                         href={element.link}
