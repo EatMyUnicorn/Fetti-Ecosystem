@@ -95,7 +95,7 @@ function PricingSection(props) {
                 </span>
               }
               features={["Passionate self Starter","Determined to see the Fetti Ecosystem become a world wide community"]}
-              ImgLink="https://pbs.twimg.com/profile_images/1496245883490422785/GIUnGPer_400x400.jpg"
+              ImgLink="https://pbs.twimg.com/profile_images/1499388366449786880/xH9EOBky_400x400.jpg"
               TwitterLink="https://twitter.com/Eatmyunicorn318"
             />
           </Grid>
