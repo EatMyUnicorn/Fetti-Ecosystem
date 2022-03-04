@@ -12,10 +12,12 @@ import {
 } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 import HomeIcon from "@material-ui/icons/Home";
-import HowToRegIcon from "@material-ui/icons/HowToReg";
-import LockOpenIcon from "@material-ui/icons/LockOpen";
 import BookIcon from "@material-ui/icons/Book";
 import NavigationDrawer from "../../../shared/components/NavigationDrawer";
+import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
+import StoreIcon from '@mui/icons-material/Store';
+
+
 //import * as Logo from './public/logo.png';
 
 const styles = theme => ({
@@ -58,11 +60,20 @@ function NavBar(props) {
       icon: <HomeIcon className="text-white" />
     },
     {
+      link: "https://dao-beta.mango.markets/dao/DgeDDRXFDTKvuZorMG4BRHRsycy7vCSAk9mHEqkNurWx",
+      name: "DAO",
+      icon: <AdminPanelSettingsIcon className="text-white" />
+    },
+    {
+      link: "https://dao-beta.mango.markets/dao/DgeDDRXFDTKvuZorMG4BRHRsycy7vCSAk9mHEqkNurWx",
+      name: "Marketplace",
+      icon: <StoreIcon className="text-white" />
+    },
+    {
       link: "/Whitepaper",
       name: "WhitePaper",
       icon: <BookIcon className="text-white" />
-    }
-  ];
+    }  ];
   return (
     <div className={classes.root}>
       <AppBar position="fixed" className={classes.appBar}>

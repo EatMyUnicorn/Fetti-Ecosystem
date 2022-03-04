@@ -15,6 +15,8 @@ import {
   Toolbar
 } from "@material-ui/core";
 import CloseIcon from "@material-ui/icons/Close";
+import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
+import StoreIcon from '@mui/icons-material/Store';
 
 const styles = theme => ({
   closeIcon: {
