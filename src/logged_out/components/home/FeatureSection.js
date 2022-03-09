@@ -30,7 +30,7 @@ const features = [
     icon: <SwapVerticalCircleIcon style={{ fontSize: iconSize }} />,
     mdDelay: "200",
     smDelay: "200", 
-    Link: ""
+    Link: "/Swap"
 
   },
   {
@@ -41,7 +41,7 @@ const features = [
     icon: <StoreIcon style={{ fontSize: iconSize }} />,
     mdDelay: "400",
     smDelay: "0", 
-    Link: "http://market.fetti.life"
+    Link: "/Marketplace"
 
   },
   {

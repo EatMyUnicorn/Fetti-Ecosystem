@@ -40,6 +40,7 @@ function IconContainer(props){
   const { classes, Icon, color, headline, text, Link } = props;
 
   if(Link != ""){
+    const target = (headline == "Fetti DAO") ? "_blank" : "";
     return (
       <Button
         variant="contained"
@@ -56,7 +57,7 @@ function IconContainer(props){
           borderRadius:"25px",
         }}
         href={Link}
-        target="_blank"
+        target={target}
       >
         {Icon}
       </Button>

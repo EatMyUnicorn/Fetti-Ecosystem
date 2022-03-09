@@ -22,6 +22,7 @@
     "date-fns": "^2.23.0",
     "emoji-mart": "^3.0.1",
     "js-cookie": "^3.0.1",
+    "nvm": "^0.0.4",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-cropper": "^2.1.8",

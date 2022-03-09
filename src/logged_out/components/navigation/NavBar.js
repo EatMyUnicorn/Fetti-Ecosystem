@@ -15,6 +15,7 @@ import HomeIcon from "@material-ui/icons/Home";
 import BookIcon from "@material-ui/icons/Book";
 import NavigationDrawer from "../../../shared/components/NavigationDrawer";
 import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
+import SwapVerticalCircleIcon from '@mui/icons-material/SwapVerticalCircle';
 import StoreIcon from '@mui/icons-material/Store';
 
 
@@ -65,13 +66,18 @@ function NavBar(props) {
       icon: <AdminPanelSettingsIcon className="text-white" />
     },
     {
-      link: "http://market.fetti.life",
+      link: "/Swap",
+      name: "Swap",
+      icon: <SwapVerticalCircleIcon className="text-white" />
+    },
+    {
+      link: "/Marketplace",
       name: "Marketplace",
       icon: <StoreIcon className="text-white" />
     },
     {
       link: "/Whitepaper",
-      name: "WhitePaper",
+      name: "Whitepaper",
       icon: <BookIcon className="text-white" />
     }  ];
   return (
@@ -88,7 +94,7 @@ function NavBar(props) {
               display="inline"
               color="primary"
             >
-              Fetti.
+              Fetti&nbsp;
             </Typography>
             
             <Typography
@@ -97,7 +103,7 @@ function NavBar(props) {
               display="inline"
               color="secondary"
             >
-              Life
+              Ecosystem
             </Typography>
 
           </div>
@@ -114,7 +120,8 @@ function NavBar(props) {
             <Hidden smDown>
               {menuItems.map(element => {
                 if (element.link) {
-                  if(element.name === "DAO" || element.name === "Marketplace"){
+                  //if(element.name === "DAO" || element.name === "Marketplace"){
+                  if(element.name === "DAO"){
                     return (
                       <a
                         href={element.link}
