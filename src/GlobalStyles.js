@@ -130,24 +130,24 @@ const styles = theme => ({
       borderRadius:"25px !important"
     },
     ".MuiTypography-h3":{
-      fontSize:"4em",
-      fontWeight:"normal",
-      fontFamily: "'Baloo Bhaijaan', cursive",
+      fontSize:"4em  !important",
+      fontWeight:"normal  !important",
+      fontFamily: "'Baloo Bhaijaan', cursive  !important",
     },
     "#HeadSection h4.MuiTypography-root.MuiTypography-h4, #HeadSection h3.MuiTypography-root.MuiTypography-h3": {
-      fontFamily: "'Baloo Bhaijaan', cursive",
-      fontWeight: "400",
-      color: "#234531",
+      fontFamily: "'Baloo Bhaijaan', cursive !important",
+      fontWeight: "400 !important",
+      color: "#234531 !important",
     },
     "#Ecosystem h4.MuiTypography-root.MuiTypography-h4, #Ecosystem h3.MuiTypography-root.MuiTypography-h3": {
-      fontFamily: "'Baloo Bhaijaan', cursive",
-      fontWeight: "400",
-      color: "#234531",
+      fontFamily: "'Baloo Bhaijaan', cursive !important",
+      fontWeight: "400 !important",
+      color: "#234531 !important",
     },
     "#TeamSection h4.MuiTypography-root.MuiTypography-h4, #TeamSection h3.MuiTypography-root.MuiTypography-h3": {
-      fontFamily: "'Baloo Bhaijaan', cursive",
-      fontWeight: "400",
-      color: "#234531",
+      fontFamily: "'Baloo Bhaijaan', cursive !important" ,
+      fontWeight: "400 !important",
+      color: "#234531 !important",
     },
     ".jss12": {
       [theme.breakpoints.down("sm")]: {
