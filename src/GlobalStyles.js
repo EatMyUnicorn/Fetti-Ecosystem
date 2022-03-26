@@ -169,6 +169,7 @@ const styles = theme => ({
       fontWeight: "100 !important",
       color: "#234531 !important",
       fill: "#234531 !important",
+      fontSize: "15px",
     },
     ".jss12": {
       [theme.breakpoints.down("sm")]: {
