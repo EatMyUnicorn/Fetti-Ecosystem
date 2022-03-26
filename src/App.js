@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import theme from "./theme";
 import GlobalStyles from "./GlobalStyles";
 import Pace from "./shared/components/Pace";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 const LoggedInComponent = lazy(() => import("./logged_in/components/Main"));
 
