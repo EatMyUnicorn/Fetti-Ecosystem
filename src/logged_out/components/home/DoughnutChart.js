@@ -93,7 +93,7 @@ class DoughnutChart extends SampleBase {
                                 radius='80%' 
                                 explode={true} 
                                 explodeOffset='10%' 
-                                explodeIndex={0} 
+                                explodeIndex={1} 
                                 dataLabel={{
                                     visible: true,
                                     name: 'text',
