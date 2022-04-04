@@ -116,7 +116,7 @@ function NavBar(props) {
       icon: <BookIcon className="text-white" />
     },
     {
-      link: "https://dao-beta.mango.markets/dao/DgeDDRXFDTKvuZorMG4BRHRsycy7vCSAk9mHEqkNurWx",
+      link: "https://realms.today/dao/DgeDDRXFDTKvuZorMG4BRHRsycy7vCSAk9mHEqkNurWx",
       name: "DAO",
       icon: <AdminPanelSettingsIcon className="text-white" />
     },

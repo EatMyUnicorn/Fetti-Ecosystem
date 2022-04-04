@@ -170,6 +170,22 @@ const styles = theme => ({
       color: "#234531 !important",
       fill: "#234531 !important",
     },
+    "body": {
+      fontFamily: "'Baloo Bhaijaan', cursive !important" ,
+    },
+    "#Roadmap ": { 
+      color: "#234531 !important",
+      fontFamily: "'Baloo Bhaijaan', cursive !important" ,
+      fontWeight: "400 !important",
+
+     },
+     ".vertical-timeline-element-title": { fontSize:"2em" },
+     ".vertical-timeline-element-date": { fontSize:"18px !important " },
+     
+
+
+
+
     ".jss12": {
       [theme.breakpoints.down("sm")]: {
         maxWidth: "500px"

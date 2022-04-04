@@ -4,6 +4,7 @@ import HeadSection from "./HeadSection";
 import FeatureSection from "./FeatureSection";
 import PricingSection from "./PricingSection";
 import TokenSection from "./TokenSection";
+import RoadmapSection from "./roadmapSection";
 
 function Home(props) {
   const { selectHome } = props;
@@ -18,6 +19,7 @@ function Home(props) {
       <HeadSection />
       <FeatureSection />
       <TokenSection />
+      <RoadmapSection />
       <PricingSection />
     </Fragment>
   );
